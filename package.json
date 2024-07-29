@@ -1,0 +1,42 @@
+{
+  "name": "start",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint:es": "eslint \"**/*.{js,jsx,ts,tsx}\"",
+    "lint:es:fix": "eslint \"**/*.{ts,js,jsx,tsx}\" --fix",
+    "lint:css": "stylelint \"src/**/*.{css,astro}\"",
+    "lint:css:fix": "stylelint \"src/**/*.{css,astro}\" --fix"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.8.3",
+    "astro": "^4.12.2",
+    "astro-purgecss": "^4.1.1",
+    "purgecss": "^6.0.0",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@playform/compress": "^0.1.0",
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^7.0.4",
+    "eslint": "9.x",
+    "eslint-plugin-astro": "^1.2.3",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.8.0",
+    "postcss-html": "^1.7.0",
+    "postcss-preset-env": "^9.6.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "stylelint": "^16.7.0",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-order": "^6.0.4",
+    "typescript-eslint": "^7.17.0"
+  }
+}
